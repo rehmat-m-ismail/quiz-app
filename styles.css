@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: url(https://img.freepik.com/free-vector/gradient-question-mark-pattern-design_23-2149423892.jpg?t=st=1732801387~exp=1732804987~hmac=ba871c0f5af1db25713d6dbb762d24c4b5ce33f908a9afe33d40a4c39ad1c5cc&w=826);
+color: white;
+    background-size: cover;
+
+}
+
+
+.quiz-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    text-align: center;
+}
+
+.options, button {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.options {
+    width: fit-content;
+}
+
+.submit-btn, button {
+    background-color: rgb(226, 56, 241) !important;
+}
